@@ -9,10 +9,12 @@ ML и DL.
    ```bash
    git clone https://github.com/Egor-Error000
 /CorseWork.git
+
 2. Приложение для решения ДифУра:
    ```bash
    git clone https://github.com/Egor-Error000
 /DE_solver_app.git
+
 3. И др:
    ```bash
    git clone https://github.com/Egor-Error000
