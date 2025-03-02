@@ -7,18 +7,15 @@ ML и DL.
 ## Мои проекты
 1. Курсовая работа по теме: трассировка частиц в магнитном поле:
    ```bash
-   git clone https://github.com/Egor-Error000
-/CorseWork.git
+   git clone 
 
 2. Приложение для решения ДифУра:
    ```bash
-   git clone https://github.com/Egor-Error000
-/DE_solver_app.git
+   git clone 
 
 3. И др:
    ```bash
-   git clone https://github.com/Egor-Error000
-/имя_репозитория.git
+   git clone https://github.com/Egor-Error000/имя_репозитория.git
 
 
 ### **Дополнительные советы**
