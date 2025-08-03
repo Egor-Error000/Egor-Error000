@@ -195,7 +195,6 @@
 
 <div align="center">
   
-![Profile Views](https://komarev.com/ghpvc/?username=Egor-Error000&style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/Egor-Error000?style=social)
+
 
 </div>
