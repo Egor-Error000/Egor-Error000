@@ -169,7 +169,6 @@
 **📧 Email:** [bolonkin.egor16@gmail.com](mailto:bolonkin.egor16@gmail.com)  
 **📱 Телефон:** +7 (953) 080-73-92  
 **📍 Локация:** Москва, Россия  
-**💼 LinkedIn:** [Профиль](https://linkedin.com/in/egor-bolonkin)  
 **🐙 GitHub:** [Egor-Error000](https://github.com/Egor-Error000)
 
 </div>
