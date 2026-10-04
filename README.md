@@ -3,198 +3,131 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Data%20Science-FF6B6B?style=for-the-badge&logo=data&logoColor=white" alt="Data Science">
-  <img src="https://img.shields.io/badge/Machine%20Learning-FF9F1C?style=for-the-badge&logo=machinelearning&logoColor=white" alt="Machine Learning">
-  <img src="https://img.shields.io/badge/Computer%20Vision-4CAF50?style=for-the-badge&logo=opencv&logoColor=white" alt="Computer Vision">
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA">
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF9F1C?style=for-the-badge&logo=ml&logoColor=white" alt="ML">
+  <img src="https://img.shields.io/badge/Computer%20Vision-4CAF50?style=for-the-badge&logo=opencv&logoColor=white" alt="CV">
+  <img src="https://img.shields.io/badge/Physics-1E90FF?style=for-the-badge&logo=atom&logoColor=white" alt="Physics">
 </div>
 
 ---
 
 ## 🧑‍🎓 Обо мне
 
-Я начинающий Data Scientist с сильным фундаментом в физике и математике. Обучаюсь на **Физическом факультете МГУ им. Ломоносова** и работаю лаборантом в **ИМПБ РАН**, где занимаюсь моделированием физических и биологических процессов.
+Data Scientist / ML Engineer с фундаментальной подготовкой по теоретической физике. Учусь на **5-м курсе специалитета** Физического факультета МГУ им. М.В. Ломоносова (кафедра квантовой статистики и теории поля, 2022–2028).
 
-Моя страсть — решать сложные задачи с помощью машинного обучения и глубокого обучения. Я имею практический опыт в компьютерном зрении, обработке естественного языка, анализе данных и теории игр.
+Делаю модели, которые можно обучить, измерить и запустить: глубокое обучение, speech ML (ASR/TTS), LLM-системы, reinforcement learning, компьютерное зрение, аномалии во временных рядах и нейросетевые суррогаты физических симуляторов. Рядом с исследованием — инженерная обвязка: PyTorch, CUDA, Docker, CI, экспорт в ONNX.
 
-**🎯 Цель:** Найти стажировку в компании, где я смогу применить свои навыки в области Data Science и внести вклад в реальные проекты.
-
----
-
-## 🚀 Ключевые проекты
-
-### 1. 🏃‍♂️ Анализ спортивных видео с применением компьютерного зрения
-**[🔗 Репозиторий](https://github.com/Egor-Error000/AI_and_Individual_sports-CV)**
-
-**Описание:** Разработка системы компьютерного зрения для анализа спортивных видеозаписей с детекцией, трекингом и оценкой позы спортсменов.
-
-**🛠️ Технологии:**
-- Python, PyTorch, torchvision, OpenCV
-- Faster R-CNN (torchvision) для детекции людей
-- DeepSort для стабильного трекинга
-- HRNet (MMPose) для оценки ключевых точек
-- Numba для оптимизации на GPU
-
-**📊 Достижения:**
-- Средний IOU: 0.7141, MAE: 12.8429, MSE: 1232.1106
-- Время обработки: ~0.70 сек/кадр с оптимизацией на GPU
-- Созданы аннотированные видеофайлы для спортивной аналитики
-
-**🎯 Применение:** Спортивная аналитика, оптимизация тренировок, компьютерное зрение
+Интересны задачи на стыке физики и машинного обучения: ускорители, численные методы, суррогатные модели.
 
 ---
 
-### 2. 🤖 Мультиагентная система для анализа данных на базе LLM
-**[🔗 Репозиторий](https://github.com/Egor-Error000/AI-agents-and-multi-agent-systems)**
+## 🎓 Образование
 
-**Описание:** Разработка мультиагентной системы для автоматизации анализа сложных задач с использованием Together API (DeepSeekR1DistillLlama70B) и веб-поиска.
+**Московский государственный университет имени М.В. Ломоносова**, Физический факультет  
+Кафедра квантовой статистики и теории поля, специалитет (5-й курс, 2022–2028)
 
-**🛠️ Технологии:**
-- Python, Together API, SerpApi, Wolfram Alpha API
-- SymPy, sentence-transformers, Docker, Docker Compose
-- Gitpod, GitLab CI/CD, SQLite, cachetools
-- Векторная память и кэширование
-
-**📊 Достижения:**
-- Реализована архитектура с координатором (BossAgent) и подчиненными агентами
-- Интеграция инструментов для символьной математики и веб-поиска
-- Обеспечена воспроизводимость и масштабируемость через Docker
-- Автоматизирована разработка через CI/CD
-
-**🎯 Применение:** Интеллектуальный анализ данных, научные расчёты, автоматизация сложных задач
+Квантовая теория поля, статистическая физика, теория групп, моделирование физических систем на GPU, параллельное программирование, квантовая теория рассеяния.
 
 ---
 
-### 3. 🎮 Обучение и оптимизация нейронных стратегий в дилемме заключённого
-**[🔗 Репозиторий](https://github.com/Egor-Error000/The-prisoner-s-dilemma)**
+## 🚀 Проекты
 
-**Описание:** Повышение эффективности выработки оптимальной стратегии в итеративной дилемме заключённого с помощью методов обучения с подкреплением и генетических алгоритмов.
+### Трассировка пучка и нейросетевой суррогат
 
-**🛠️ Технологии:**
-- Python, PyTorch, NumPy, Matplotlib
-- DNN, CNN, RNN, LSTM, GRU архитектуры
-- Policy Gradient, генетические алгоритмы
-- Self-play обучение и оптимизация
+Полный цикл моделирования пучка заряженных частиц: магнитное поле конечного соленоида (Био–Савар), интерполяция на 2D-сетке, релятивистский трекер на алгоритме Бориса (Numba CUDA) и MLP, который предсказывает отклонение от свободного пролёта, а не всю траекторию.
 
-**📊 Достижения:**
-- Разработаны и обучены различные архитектуры нейронных сетей
-- Достигнут устойчивый рост общей награды
-- Рекуррентные сети успешно учитывают историю игр
-- Генетическая оптимизация улучшила параметры моделей
+На учебной задаче ускорительной физики суррогат (~10³ параметров) дал ускорение около **1300×** относительно эталонного трекера при mean Δr/r ≈ 1.2×10⁻³. Безразмерная нормировка и аугментация поворотом пучка.
 
-**🎯 Применение:** Теория игр, моделирование поведения агентов, исследование стратегий
+Публичный код:
+
+- [Beam-Tracing](https://github.com/Egor-Error000/Beam-Tracing) — трекер во внешних полях (соленоиды, квадруполи, диполи, RF), PIC в RZ-геометрии
+- [Beam-Surrogate](https://github.com/Egor-Error000/Beam-Surrogate) — генерация датасета, обучение и оценка MLP-суррогата, MLflow
+- [Coursework](https://github.com/Egor-Error000/Coursework) · [solenoid_tracker](https://github.com/Egor-Error000/solenoid_tracker)
+
+**Стек:** Python, PyTorch, Numba CUDA, SciPy, HDF5, Matplotlib.
 
 ---
 
-### 4. ✈️ Анализ и прогнозирование задержек авиарейсов за 2013 год
-**[🔗 Репозиторий](https://github.com/Egor-Error000/-2013-)**
+### Обнаружение аномалий во временных рядах
 
-**Описание:** Разработка аналитического и предсказательного конвейера для данных о задержках рейсов в аэропорты Нью-Йорка за 2013 год с построением регрессионных моделей.
+Два дополняющих подхода к многоканальным рядам и раннему поиску отклонений.
 
-**🛠️ Технологии:**
-- Python, pandas, NumPy, matplotlib, seaborn
-- RandomForest, XGBoost, CatBoost
-- statsmodels, MLflow, scipy, tqdm
-- Временные ряды и кросс-валидация (TimeSeriesSplit)
+**Transformer Autoencoder + contrastive learning.** Окна восстанавливает автокодировщик-трансформер, InfoNCE разводит режимы в латентном пространстве, взвешенная MSE компенсирует дисбаланс. Оценка аномалии сочетает квантильный порог и Z-score с весом, который зависит от стабильности ошибок. События собираются по длительности и связности; сдвиг домена смотрится через PCA/UMAP.
 
-**📊 Достижения:**
-- Выполнен полный EDA с анализом пропусков, аномалий и временных закономерностей
-- Построены и сравнены модели с улучшением точности на 20%
-- Оптимизировано обучение с ранней остановкой и логированием в MLflow
-- Создан очищенный датасет и визуализации для анализа
+**Hierarchical temporal VAE + forecasting.** Иерархический VAE с головой прогноза. Аномалия читается по латентному пространству (GMM), ошибке реконструкции и ошибке прогноза следующего состояния; канал-источник — по поканальным остаткам.
 
-**🎯 Применение:** Оптимизация расписаний, снижение затрат авиакомпаний, прогнозирование рисков
+**Стек:** PyTorch, multi-GPU, Docker.
 
 ---
 
-### 5. ⚛️ Курсовая работа: Трассировка пучка заряженных частиц в магнитном поле
-**[🔗 Репозиторий](https://github.com/Egor-Error000/Coursework)**
+### Речевые модели и голосовые агенты
 
-**Описание:** Моделирование движения частиц в магнитном поле с последующим обучением нейросети для трассировки в реальном времени.
+Сравнение ASR-моделей (Qwen, Whisper, SenseVoice) по качеству и скорости, стриминговые замеры ASR и TTS (TTFT, RTF, TTFA) через HTTP/WebSocket, сборка voice-to-voice агента (ASR + TTS + LLM) на одном GPU.
 
-**🛠️ Технологии:**
-- Python, NumPy, Matplotlib, Plotly, Numba, SciPy
-- Методы математической физики
-- Визуализация 3D-траекторий
-- Оптимизация вычислений
-
-**📊 Достижения:**
-- Решена задача нахождения поля соленоида в любой точке пространства
-- Найдены траектории движения частиц в конфигурации двух соленоидов
-- Создана программа для трассировки пучка электронов
-- Подготовлена основа для обучения нейросети
-
-**🎯 Применение:** Физика высоких энергий, ускорители частиц, тестирование систем реагирования
+**Стек:** vLLM, vLLM-Omni, Qwen3, Faster-Whisper, FunASR, Docker, GitLab CI.
 
 ---
 
-## 🛠️ Технологический стек
+### Reinforcement learning
 
-### Языки программирования
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
-</div>
+Прикладные RL-пайплайны: MaskablePPO (обучение с нуля и дообучение) и DAgger, единый формат чекпоинтов для нескольких алгоритмов, экспорт политики в ONNX вместе с метриками и артефактами прогона, CI для сборки и проверки.
 
-### ML/DL фреймворки
-<div align="center">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/XGBoost-013E3F?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost">
-</div>
+**Стек:** PyTorch, Stable-Baselines3, TorchRL, pydantic, ONNX.
 
-### Инструменты и платформы
-<div align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-</div>
+---
 
-### Специализации
-- 🧠 **Машинное обучение:** Supervised/Unsupervised Learning, Deep Learning, Reinforcement Learning
-- 👁️ **Компьютерное зрение:** Object Detection, Pose Estimation, Tracking
-- 🗣️ **NLP:** Текстовая обработка, семантический поиск, мультиагентные системы
-- 📊 **Анализ данных:** EDA, Feature Engineering, Time Series Analysis
-- 🔬 **Математическое моделирование:** Физические симуляции, численные методы
+### Label Studio Converters
+
+Python-библиотека: экспорт Label Studio → разметка для детекции (полигоны и прямоугольники). Реестр конвертеров, CLI и Python API, параллельная обработка, тесты (unit / integration / e2e), линтеры.
+
+**Стек:** Python, black, ruff, isort, pytest, GitLab CI.
+
+---
+
+### Антиферромагнитная XXX-цепочка
+
+Точная диагонализация спиновой цепочки \(s = 1/2\), \(J = 1\), открытые и периодические границы, чётные \(N = 4, \ldots, 26\).
+
+**[Репозиторий](https://github.com/Egor-Error000/XXX--)**
+
+---
+
+### Учебные и пет-проекты
+
+| Проект | О чём | Стек |
+|--------|--------|------|
+| [Анализ спортивных видео](https://github.com/Egor-Error000/AI_and_Individual_sports-CV) | Детекция, трекинг, pose estimation | PyTorch, Faster R-CNN, DeepSort, HRNet, Numba |
+| [Мультиагентная LLM-система](https://github.com/Egor-Error000/AI-agents-and-multi-agent-systems) | Агенты с веб-поиском и символьной математикой | Together API, SerpApi, Wolfram Alpha, SymPy, Docker |
+| [Дилемма заключённого](https://github.com/Egor-Error000/The-prisoner-s-dilemma) | Стратегии через policy gradient и self-play | PyTorch, RNN/LSTM/GRU |
+| [Задержки авиарейсов](https://github.com/Egor-Error000/-2013-) | Регрессия по открытым данным 2013 года | XGBoost, CatBoost, MLflow |
+| [Детекция людей, YOLOv8](https://github.com/Egor-Error000/Person-Detection_YOLOv8x) | Детекция | YOLOv8, PyTorch |
+| [U-Net](https://github.com/Egor-Error000/-U-Net) | Сегментация | PyTorch |
+
+---
+
+## 🛠️ Стек
+
+**Языки:** Python, C++, CUDA (Numba)
+
+**ML:** PyTorch, Transformers, VAE, Vision Transformers, GNN, scikit-learn, XGBoost, CatBoost, UMAP
+
+**Speech / LLM:** vLLM, vLLM-Omni, Qwen3, Whisper, Faster-Whisper, FunASR
+
+**RL:** Stable-Baselines3 (MaskablePPO), TorchRL, DAgger, ONNX
+
+**Инженерия:** Docker, GitLab CI, MLflow, HDF5, pydantic, OpenCV
+
+**Научные расчёты:** NumPy, SciPy, pandas, Matplotlib
 
 ---
 
 ## 📫 Контакты
 
 <div align="center">
-  
-**📧 Email:** [bolonkin.egor16@gmail.com](mailto:bolonkin.egor16@gmail.com)  
-**📱 Телефон:** +7 (953) 080-73-92  
-**📍 Локация:** Москва, Россия  
-**🐙 GitHub:** [Egor-Error000](https://github.com/Egor-Error000)
 
-</div>
-
----
-
-## 🎯 В поиске стажировки
-
-Я активно ищу **стажировку в области Data Science/Machine Learning**, где смогу применить свои навыки в решении реальных задач. Особенно интересуют проекты связанные с:
-- Компьютерным зрением и обработкой изображений
-- Мультиагентными системами и LLM
-- Анализом данных и предсказательным моделированием
-- Научными исследованиями и математическим моделированием
-
-**Готов к удаленной работе, частичной занятости и проектной работе.**
-
----
-
-<div align="center">
-  
-**⭐ Не стесняйтесь заглянуть в мои проекты и связаться со мной!**  
-**Спасибо за внимание к моему профилю! 😊**
-
-</div>
-
-<div align="center">
-  
-
+**Email:** [bolonkin.ev22@physics.msu.ru](mailto:bolonkin.ev22@physics.msu.ru) · [bolonkin.egor16@gmail.com](mailto:bolonkin.egor16@gmail.com)  
+**Телефон:** +7 (953) 080-73-92  
+**Локация:** Москва, Россия  
+**GitHub:** [Egor-Error000](https://github.com/Egor-Error000)
 
 </div>
